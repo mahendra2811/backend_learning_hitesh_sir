@@ -70,7 +70,7 @@ userSchema.methods.generateAccessToken = function(){
         {
             _id:this._id, //ye mongo db se mil jayege
             email:this.email,
-            username:this.userName,
+            username:this.username,
             fullname:this.fullName,
         },
 
