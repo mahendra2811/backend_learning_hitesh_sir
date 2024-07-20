@@ -23,7 +23,7 @@ const userSchema = new Schema({
             required: true,
             trim: true,
             index:true 
-        },
+         },
         avator:{
             type: String,  ///cloudinary ki service use ker sakte haa
             // default: "https://www.gravatar.com/avatar/"
