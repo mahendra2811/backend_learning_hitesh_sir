@@ -34,7 +34,7 @@ import express from "express"
 // connectDB() 
 
 ( async () => {
-    try{
+    try{src/index.js
         mongoose.connect(`${process.env.MONGODB_URI }/${DB_NAME} `)
         app.on("error" , (error)=>{
             console.log("Error connecting to the database" , error );
