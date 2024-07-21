@@ -2,7 +2,7 @@
 import { v2 as cloudinary } from 'cloudinary'; //esme hamen v2 ko cloudinary name diya ha 
 
 
-(async function() {
+// (async function() {
 
     // Configuration
     cloudinary.config({ 
@@ -32,8 +32,7 @@ import { v2 as cloudinary } from 'cloudinary'; //esme hamen v2 ko cloudinary nam
             return null ;
         }
     }
-
-
+export {uploadOnCloudinary} 
 
 
 
@@ -74,5 +73,5 @@ import { v2 as cloudinary } from 'cloudinary'; //esme hamen v2 ko cloudinary nam
     */
 
     
-})();
+// })();
 
