@@ -25,7 +25,8 @@ import { v2 as cloudinary } from 'cloudinary'; //esme hamen v2 ko cloudinary nam
                 resource_type: "auto"
             })
             // file has uploaded successufullyy...
-            console.log("file is uploaded succesfully" , response.url );
+            // console.log("file is uploaded succesfully" , response.url );
+            fs.unlinkSync(localFilePath) //unlink ker dega ye pehle testing purpose se kiya haa
             return response ;
         }catch(error){
             fs.unlinkSync(localFilePath) //remove the locally save temporary file as the upload operation got failed 
